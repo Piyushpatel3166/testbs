@@ -1,0 +1,21 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+
+.carousel-item {
+    background: #12294b;
+}
+
+.services-list .box {
+    background: #e7e7e7;
+    margin-bottom: 10px;
+}
+
+[data-bs-theme=dark]{
+    .services-list .box {
+        background: #12294b;
+        margin-bottom: 10px;
+    }
+}
+
+.services{
+    background-image: radial-gradient(2px 2px at 50px 200px, #eee, rgba(0, 0, 0, 0)),radial-gradient(2px 2px at 40px 70px, #fff, rgba(0, 0, 0, 0)),radial-gradient(3px 4px at 120px 40px, #ddd, rgba(0, 0, 0, 0));
+}
